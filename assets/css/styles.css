@@ -1,8 +1,12 @@
+body {
+  font-family: "Crimson Text", serif;
+}
+
 .ImgBack {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background3.jpg);
   background-repeat: no-repeat;
   background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-  background-position: center; /* Centra la imagen en el fondo */
+  background-position-y: 30%; /* Centra la imagen en el fondo */
 }
 
 .form {
@@ -13,6 +17,8 @@
   background: linear-gradient(to right, #3f4c6b, #606c88);
   padding: 20px;
   border-radius: 10px;
+  height: 250px;
+  width: 650px;
 }
 
 .title {
@@ -23,19 +29,20 @@
   color: #fff;
 }
 
-.description {
-  font-size: 1.8rem;
-  line-height: 1.5rem;
-  font-size: 1rem;
-  margin-top: 1rem;
-  color: rgb(209 213 219);
-}
-
 .form div {
   display: flex;
   max-width: 28rem;
   margin-top: 1rem;
   column-gap: 0.5rem;
+}
+
+/* Estilos ejercicio1.html */
+
+.description {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: rgb(209 213 219);
 }
 
 .form div input {

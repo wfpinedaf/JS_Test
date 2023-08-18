@@ -142,3 +142,7 @@
 // } else {
 //   console.log("No recibiras ningun descuento");
 // }
+
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+}
